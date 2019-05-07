@@ -76,7 +76,7 @@ the pitch.
 {% comment %}
 AUDIENCE
 {% endcomment %}
-"This workshop is open for researchers associated to the Faculty of Applied Sciences and the Faculty of Electrical Engineering, Mathematics & Computer Science @TU Delft"
+
 {% if page.carpentry == "swc" %}
 {% include sc/who.html %}
 {% elsif page.carpentry == "dc" %}
