@@ -11,8 +11,8 @@ humandate: "June 4-5 2019"    # human-readable dates for the workshop (e.g., "Fe
 humantime: "9:00-17:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2019-06-04      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-06-05        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Raúl Ortiz Merino, Marcel van den Broek, Santosh Ilamparuthi, Esther Plomp"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Mario Beck, Kees den Heijer"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: ["Raúl Ortiz Merino", "Marcel van den Broek", "Santosh Ilamparuthi", "Esther Plomp"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Mario Beck", "Kees den Heijer"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["P.M.MartinezLavanchy@tudelft.nl"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:   "https://etherpad.net/p/20190604Delft"          # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite: 61376518820           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -88,7 +88,7 @@ the pitch.
 
 {% comment %}
 AUDIENCE
-
+"This workshop is open for researchers associated to the Faculty of Applied Sciences and the Faculty of Electrical Engineering, Mathematics & Computer Science @TU Delft"
 Explain who your audience is.  (In particular, tell readers if the
 workshop is only open to people from a particular institution.
 {% endcomment %}
